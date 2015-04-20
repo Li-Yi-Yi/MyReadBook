@@ -9,11 +9,19 @@
 /* Begin PBXBuildFile section */
 		1BC8809F1AE220280033E0BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC8809E1AE220280033E0BF /* main.m */; };
 		1BC880A21AE220280033E0BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC880A11AE220280033E0BF /* AppDelegate.m */; };
-		1BC880A51AE220280033E0BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC880A41AE220280033E0BF /* ViewController.m */; };
 		1BC880A81AE220280033E0BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BC880A61AE220280033E0BF /* Main.storyboard */; };
 		1BC880AA1AE220280033E0BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BC880A91AE220280033E0BF /* Images.xcassets */; };
 		1BC880AD1AE220280033E0BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BC880AB1AE220280033E0BF /* LaunchScreen.xib */; };
 		1BC880B91AE220280033E0BF /* MyBookReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC880B81AE220280033E0BF /* MyBookReaderTests.m */; };
+		1BC880CC1AE222E60033E0BF /* MyTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC880CB1AE222E60033E0BF /* MyTabbarController.m */; };
+		1BC880D21AE225A60033E0BF /* BookShelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC880D11AE225A60033E0BF /* BookShelfViewController.m */; };
+		1BC880D51AE225B70033E0BF /* BookStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC880D41AE225B70033E0BF /* BookStoreViewController.m */; };
+		1BC880D81AE225C80033E0BF /* PersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC880D71AE225C80033E0BF /* PersonalCenterViewController.m */; };
+		1BC880E51AE229710033E0BF /* NSData+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC880DC1AE229700033E0BF /* NSData+Addition.m */; };
+		1BC880E61AE229710033E0BF /* NSDictionary+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC880DE1AE229710033E0BF /* NSDictionary+Addition.m */; };
+		1BC880E71AE229710033E0BF /* NSObject+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC880E01AE229710033E0BF /* NSObject+Addition.m */; };
+		1BC880E81AE229710033E0BF /* NSString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC880E21AE229710033E0BF /* NSString+Addition.m */; };
+		1BC880E91AE229710033E0BF /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC880E41AE229710033E0BF /* UIColor+Addition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +40,32 @@
 		1BC8809E1AE220280033E0BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1BC880A01AE220280033E0BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1BC880A11AE220280033E0BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1BC880A31AE220280033E0BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1BC880A41AE220280033E0BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1BC880A71AE220280033E0BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1BC880A91AE220280033E0BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1BC880AC1AE220280033E0BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1BC880B21AE220280033E0BF /* MyBookReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBookReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BC880B71AE220280033E0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BC880B81AE220280033E0BF /* MyBookReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBookReaderTests.m; sourceTree = "<group>"; };
+		1BC880CA1AE222E60033E0BF /* MyTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabbarController.h; sourceTree = "<group>"; };
+		1BC880CB1AE222E60033E0BF /* MyTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabbarController.m; sourceTree = "<group>"; };
+		1BC880D01AE225A60033E0BF /* BookShelfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookShelfViewController.h; sourceTree = "<group>"; };
+		1BC880D11AE225A60033E0BF /* BookShelfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookShelfViewController.m; sourceTree = "<group>"; };
+		1BC880D31AE225B70033E0BF /* BookStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookStoreViewController.h; sourceTree = "<group>"; };
+		1BC880D41AE225B70033E0BF /* BookStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookStoreViewController.m; sourceTree = "<group>"; };
+		1BC880D61AE225C80033E0BF /* PersonalCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterViewController.h; sourceTree = "<group>"; };
+		1BC880D71AE225C80033E0BF /* PersonalCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterViewController.m; sourceTree = "<group>"; };
+		1BC880DA1AE229700033E0BF /* AdditionFrameworks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdditionFrameworks.h; sourceTree = "<group>"; };
+		1BC880DB1AE229700033E0BF /* NSData+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Addition.h"; sourceTree = "<group>"; };
+		1BC880DC1AE229700033E0BF /* NSData+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Addition.m"; sourceTree = "<group>"; };
+		1BC880DD1AE229710033E0BF /* NSDictionary+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Addition.h"; sourceTree = "<group>"; };
+		1BC880DE1AE229710033E0BF /* NSDictionary+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Addition.m"; sourceTree = "<group>"; };
+		1BC880DF1AE229710033E0BF /* NSObject+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Addition.h"; sourceTree = "<group>"; };
+		1BC880E01AE229710033E0BF /* NSObject+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Addition.m"; sourceTree = "<group>"; };
+		1BC880E11AE229710033E0BF /* NSString+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Addition.h"; sourceTree = "<group>"; };
+		1BC880E21AE229710033E0BF /* NSString+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Addition.m"; sourceTree = "<group>"; };
+		1BC880E31AE229710033E0BF /* UIColor+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
+		1BC880E41AE229710033E0BF /* UIColor+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
+		1BC880EB1AE229DE0033E0BF /* MyBookReader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBookReader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +107,10 @@
 		1BC8809B1AE220280033E0BF /* MyBookReader */ = {
 			isa = PBXGroup;
 			children = (
+				1BC880C21AE221BE0033E0BF /* Reasource */,
+				1BC880C31AE221C90033E0BF /* Code */,
 				1BC880A01AE220280033E0BF /* AppDelegate.h */,
 				1BC880A11AE220280033E0BF /* AppDelegate.m */,
-				1BC880A31AE220280033E0BF /* ViewController.h */,
-				1BC880A41AE220280033E0BF /* ViewController.m */,
 				1BC880A61AE220280033E0BF /* Main.storyboard */,
 				1BC880A91AE220280033E0BF /* Images.xcassets */,
 				1BC880AB1AE220280033E0BF /* LaunchScreen.xib */,
@@ -98,6 +124,7 @@
 			children = (
 				1BC8809D1AE220280033E0BF /* Info.plist */,
 				1BC8809E1AE220280033E0BF /* main.m */,
+				1BC880EB1AE229DE0033E0BF /* MyBookReader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +144,119 @@
 				1BC880B71AE220280033E0BF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BC880C21AE221BE0033E0BF /* Reasource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reasource;
+			sourceTree = "<group>";
+		};
+		1BC880C31AE221C90033E0BF /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				1BC880C81AE2225C0033E0BF /* Class */,
+				1BC880C71AE222020033E0BF /* Libs */,
+				1BC880C61AE221F60033E0BF /* Controller */,
+				1BC880C51AE221EE0033E0BF /* View */,
+				1BC880C41AE221E30033E0BF /* Model */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		1BC880C41AE221E30033E0BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1BC880C51AE221EE0033E0BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BC880C61AE221F60033E0BF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1BC880CF1AE2238B0033E0BF /* PersonalCenterViewController */,
+				1BC880CE1AE223780033E0BF /* BookStoreViewController */,
+				1BC880CD1AE2235C0033E0BF /* BookShelfViewController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1BC880C71AE222020033E0BF /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				1BC880D91AE229700033E0BF /* Additions */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		1BC880C81AE2225C0033E0BF /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				1BC880C91AE222B40033E0BF /* MyTabbarController */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		1BC880C91AE222B40033E0BF /* MyTabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				1BC880CA1AE222E60033E0BF /* MyTabbarController.h */,
+				1BC880CB1AE222E60033E0BF /* MyTabbarController.m */,
+			);
+			path = MyTabbarController;
+			sourceTree = "<group>";
+		};
+		1BC880CD1AE2235C0033E0BF /* BookShelfViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1BC880D01AE225A60033E0BF /* BookShelfViewController.h */,
+				1BC880D11AE225A60033E0BF /* BookShelfViewController.m */,
+			);
+			path = BookShelfViewController;
+			sourceTree = "<group>";
+		};
+		1BC880CE1AE223780033E0BF /* BookStoreViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1BC880D31AE225B70033E0BF /* BookStoreViewController.h */,
+				1BC880D41AE225B70033E0BF /* BookStoreViewController.m */,
+			);
+			path = BookStoreViewController;
+			sourceTree = "<group>";
+		};
+		1BC880CF1AE2238B0033E0BF /* PersonalCenterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1BC880D61AE225C80033E0BF /* PersonalCenterViewController.h */,
+				1BC880D71AE225C80033E0BF /* PersonalCenterViewController.m */,
+			);
+			path = PersonalCenterViewController;
+			sourceTree = "<group>";
+		};
+		1BC880D91AE229700033E0BF /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				1BC880DA1AE229700033E0BF /* AdditionFrameworks.h */,
+				1BC880DB1AE229700033E0BF /* NSData+Addition.h */,
+				1BC880DC1AE229700033E0BF /* NSData+Addition.m */,
+				1BC880DD1AE229710033E0BF /* NSDictionary+Addition.h */,
+				1BC880DE1AE229710033E0BF /* NSDictionary+Addition.m */,
+				1BC880DF1AE229710033E0BF /* NSObject+Addition.h */,
+				1BC880E01AE229710033E0BF /* NSObject+Addition.m */,
+				1BC880E11AE229710033E0BF /* NSString+Addition.h */,
+				1BC880E21AE229710033E0BF /* NSString+Addition.m */,
+				1BC880E31AE229710033E0BF /* UIColor+Addition.h */,
+				1BC880E41AE229710033E0BF /* UIColor+Addition.m */,
+			);
+			path = Additions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +359,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BC880A51AE220280033E0BF /* ViewController.m in Sources */,
+				1BC880E61AE229710033E0BF /* NSDictionary+Addition.m in Sources */,
+				1BC880D21AE225A60033E0BF /* BookShelfViewController.m in Sources */,
 				1BC880A21AE220280033E0BF /* AppDelegate.m in Sources */,
+				1BC880E51AE229710033E0BF /* NSData+Addition.m in Sources */,
+				1BC880E71AE229710033E0BF /* NSObject+Addition.m in Sources */,
+				1BC880D51AE225B70033E0BF /* BookStoreViewController.m in Sources */,
+				1BC880D81AE225C80033E0BF /* PersonalCenterViewController.m in Sources */,
 				1BC8809F1AE220280033E0BF /* main.m in Sources */,
+				1BC880E91AE229710033E0BF /* UIColor+Addition.m in Sources */,
+				1BC880CC1AE222E60033E0BF /* MyTabbarController.m in Sources */,
+				1BC880E81AE229710033E0BF /* NSString+Addition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +495,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = MyBookReader/MyBookReader.pch;
 				INFOPLIST_FILE = MyBookReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +506,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = MyBookReader/MyBookReader.pch;
 				INFOPLIST_FILE = MyBookReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +566,7 @@
 				1BC880BE1AE220280033E0BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BC880BF1AE220280033E0BF /* Build configuration list for PBXNativeTarget "MyBookReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +575,7 @@
 				1BC880C11AE220280033E0BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BookShelfViewController.h
 //  MyBookReader
 //
 //  Created by 蔡成汉 on 15/4/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BookShelfViewController : UIViewController
 
 @end
-
